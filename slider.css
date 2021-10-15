@@ -1,0 +1,23 @@
+.slide{
+    width: 1000px;
+    height: 400px;
+    background: url(images/slider/mall\ entrance.jpg);
+    margin: 20px auto;
+    animation: slide 10s infinite;
+}
+@keyframes slide {
+    25%{
+        background: url(images/slider/offer.jpg);
+    }
+    50%{
+       background: url(images/slider/kids\ shopping.jpg);
+       
+    }
+    75%{
+        background: url(images/slider/women\ section.jpg);
+    }
+    100%{
+        background: url(images/slider/mall\ entrance.jpg);
+    }
+
+}
