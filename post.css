@@ -4,6 +4,15 @@
     height: 50px;
     border-radius: 50%;
   }
+  .row1{
+      display: flex;
+      align-items: center;
+      width: 500px;
+  }
+  .row1-col2{
+      width: 60px;
+      font-size: 17px;
+  }
   .post-container{
       width: 500px;
       height: auto;
@@ -13,11 +22,7 @@
       padding: 10px;
   }
 
-  .row1{
-      display: flex;
-      align-items:flex-start;
-      width: 132px;
-  }
+ 
   .row1 > p {
       margin-left: 5px;
       margin-bottom: 10px;
